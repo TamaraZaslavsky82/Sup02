@@ -46,7 +46,7 @@ export const profiles = [
     muggleCountry: "Argentina",
     avatar:
       "https://res.cloudinary.com/djpfzdy2c/image/upload/v1687991468/Emanuel_Ontivero_hsonju.jpg",
-    hoobbies: ["Ejercicios", "VideoGames", "Estudiar Física"],
+    hobbies: ["Ejercicios", "VideoGames", "Estudiar Física"],
     Birthday: "1990-12-23",
   },
   {
