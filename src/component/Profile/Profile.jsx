@@ -8,8 +8,10 @@ export default function Profile() {
       {profiles.map((profile) => (
         <div  className={styles.card} key = {profile.id}>
         <img className={styles.img} src={profile.avatar} alt= "avatar"></img>
-        <h2 className={styles.title}>{profile.name}</h2>
-        <p className={styles.house}>House: {profile.house}</p>
+        <div className={styles.info}>
+          <h2 className={styles.title}>{profile.name}</h2>
+          <p className={styles.house}>House: {profile.house}</p>
+        </div>
         </div>
   ))}
     </div>
