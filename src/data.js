@@ -15,7 +15,7 @@ export const profiles = [
   },
   {
     id: 2,
-    name: "Tamara zaslavsky",
+    name: "Tamara Zaslavsky",
     house: "Hufflepuff",
     wand: "Apple",
     patronus: "Osprey",

@@ -1,30 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
+
 .title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     font-family: 'Cormorant Garamond', serif;
     font-size: 2.2vw;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(198, 228, 31), 0 0 0.2em rgb(240, 240, 22);
+    color: white;
 
 }
 
 .house{
     font-family: 'Quicksand', sans-serif;
     font-size: 1vw;
+    text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
+    color: rgb(255, 255, 255);
 }
 
 .container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 .card {
   display: block;
   gap: 10px;
   flex-direction: inline-block;
-  width: fit-content;
-  height: fit-content;
+  width: 25vw;
+  height: 40vw;
   margin: 0 auto;
-  background-color: rgb(255, 255, 255, 0.9);
+  background-image: url("../img/card-background-02.jpg");
+  background-position-y: -40px;
+  background-size: 100%;
+  /* background-color: rgb(255, 255, 255, 0.9); */
   border-radius: 30px;
   box-shadow: 2px 2px 5px rgb(64, 64, 64);
   padding: 20px;
@@ -33,12 +47,17 @@
   margin-left: 5vw;
   margin-right: 5vw;
   flex-wrap: wrap;
-  transform: scale(1.05); 
+  transform: scale(1.05);
 }
 
 .img {
   border-radius: 15px;
   border: solid 1px black;
   width: 25vw;
-  /* height: 35vw; */
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
 }
