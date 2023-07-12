@@ -85,4 +85,22 @@ export const profiles = [
     hobbies: ["Pasear con mi hijo", "Arreglar Cosas"],
     Birthday: "1988-06-29",
   },
+  {
+    id: 8,
+    name: "Carlos Miguel Malissia",
+    house: "Griffindor",
+    wand: "Dogwood Wood",
+    patronus: "Tonkinese Cat",
+    muggleCountry: "Argentina",
+    avatar:
+      "https://res.cloudinary.com/dbqcr4rhe/image/upload/v1689200888/carlosavatar_w7refl.jpg",
+    hobbies: [
+      "Ver Peliculas y series de Ciencia Ficcion",
+      "Cantar",
+      "Tocar Piano",
+      "Ver deportes",
+      "eschuchar musica y ver recitales de rock",
+    ],
+    Birthday: "1967-07-25",
+  }, // Si tenemos tiempo les enseño a manipular fechas con js
 ];

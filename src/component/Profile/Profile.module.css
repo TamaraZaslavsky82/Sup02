@@ -1,31 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
 
-
-.title{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 2.2vw;
-    text-shadow: 1px 1px 2px red, 0 0 1em rgb(198, 228, 31), 0 0 0.2em rgb(240, 240, 22);
-    color: white;
-
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.2vw;
+  text-shadow: 1px 1px 2px red, 0 0 1em rgb(198, 228, 31),
+    0 0 0.2em rgb(240, 240, 22);
+  color: black;
+  transition: 2.5s;
 }
 
-.house{
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1vw;
-    text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
-    color: rgb(255, 255, 255);
+.title:hover {
+  color: white;
 }
 
-.container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+.house {
+  font-family: "Kanit", sans-serif;
+  font-size: 1.4vw;
+  text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black,
+    0 -1px 1px black;
+  color: rgb(255, 255, 255);
+}
 
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
@@ -35,10 +40,10 @@
   width: 25vw;
   height: 40vw;
   margin: 0 auto;
-  background-image: url("../img/card-background-02.jpg");
+  /* background-image: url("../Img/card-background-02.jpg"); */
+  background-color: rgb(255, 255, 255, 0.9);
   background-position-y: -40px;
   background-size: 100%;
-  /* background-color: rgb(255, 255, 255, 0.9); */
   border-radius: 30px;
   box-shadow: 2px 2px 5px rgb(64, 64, 64);
   padding: 20px;
@@ -48,6 +53,12 @@
   margin-right: 5vw;
   flex-wrap: wrap;
   transform: scale(1.05);
+  transition: 2s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  background-color: black;
 }
 
 .img {
@@ -56,8 +67,8 @@
   width: 25vw;
 }
 
-.info{
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
+.info {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
 }
